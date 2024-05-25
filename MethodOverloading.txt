@@ -1,0 +1,19 @@
+class Calculator{
+    public int add(int a , int b ){
+        return a+b;
+    }
+    public int add(int a, int b, int c){
+        return a+b+c;
+    }
+
+}
+
+class Main{
+    public static void main (String[] args) {
+        Calculator cal = new Calculator();
+        int result1 = cal.add(3,4);
+        int result2 = cal.add(5,6,7);
+        System.out.println(result1);
+        System.out.println(result2);
+    }
+}
