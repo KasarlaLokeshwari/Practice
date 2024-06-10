@@ -1,0 +1,12 @@
+public class Charactercount{
+    public static void main(String[] args){
+        String string = "My name is Kasarla Lokeshwari";
+        int count = 0;
+        for(int i =0;i<string.length();i++){
+            if(string.charAt(i)!=' ')
+            count++;
+        }
+        
+        System.out.println("Number of characters present in String: " + count);
+    }
+}
